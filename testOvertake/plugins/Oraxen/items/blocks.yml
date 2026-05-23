@@ -24,3 +24,29 @@ silver_ore:
         - probability: 1.0
           oraxen_item: raw_silver
         best_tool: PICKAXE
+
+silver_block:
+  itemname: <gradient:#E6E6E6:#AFAFAF>Silver Block
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - default/silver_block
+  Mechanics:
+    noteblock:
+      interactable: false
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 1
+      model: silver_block
+      hardness: 7
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRON
+        loots:
+        - probability: 1.0
+          oraxen_item: silver_block
+        best_tool: PICKAXE
