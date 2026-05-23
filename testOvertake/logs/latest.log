@@ -335,3 +335,10 @@ java.util.ConcurrentModificationException: null
 [00:19:22] [Craft Scheduler Thread - 313 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
 [00:19:24] [Craft Scheduler Thread - 313 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=9ef763a47a154bee9801a405c94617a1ec60980d in 1722 ms
 [00:19:34] [Server thread/INFO]: CellFuzzy issued server command: /oraxen inv
+[00:22:40] [Server thread/INFO]: CellFuzzy issued server command: /ceee
+[00:22:57] [Server thread/INFO]: CellFuzzy issued server command: /oraxen give CellFuzzy silver_ingot 9
+[00:23:33] [Server thread/INFO]: CellFuzzy issued server command: /customcrafting
+[00:23:33] [Server thread/WARN]: [WolfyUtilities] Unable to load custom data from '{"id":"customcrafting:common_player_data","darkMode":false,"totalCrafts":0,"advancedCrafts":0,"normalCrafts":0,"lightBackground":"none:glass_white","darkBackground":"none:glass_gray"}'! Removing it now to prevent further issues!
+[00:25:27] [Async Chat Thread - #6/INFO]: [Not Secure] <CellFuzzy> eeee
+[00:25:57] [Server thread/INFO]: CellFuzzy issued server command: /oraxen give CellFuzzy silver_ingot 64
+[00:26:06] [Server thread/INFO]: CellFuzzy issued server command: /customcrafting
