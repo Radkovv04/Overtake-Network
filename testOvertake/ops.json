@@ -10,5 +10,11 @@
     "name": "BloodOfIce",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c248cb39-2440-3306-9028-edbc003d333a",
+    "name": "CellFuzzy",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
