@@ -31,7 +31,7 @@ settings:
   moved-wrongly-threshold: 0.0625
   log-villager-deaths: true
   log-named-deaths: true
-  timeout-time: 60
+  timeout-time: 300
   restart-on-crash: true
   restart-script: ./start.sh
 advancements:

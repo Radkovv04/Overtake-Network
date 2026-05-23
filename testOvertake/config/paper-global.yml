@@ -136,5 +136,5 @@ unsupported-settings:
   skip-vanilla-damage-tick-when-shield-blocked: false
   update-equipment-on-player-actions: true
 watchdog:
-  early-warning-delay: 10000
+  early-warning-delay: 180000
   early-warning-every: 5000

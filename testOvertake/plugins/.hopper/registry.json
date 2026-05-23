@@ -1,17 +1,7 @@
 {
   "version": 1,
-<<<<<<< Updated upstream
-  "generated": "2026-05-23T21:01:38.315826022Z",
-=======
-  "generated": "2026-05-23T21:03:25.277387100Z",
->>>>>>> Stashed changes
+  "generated": "2026-05-23T22:17:41.729277820Z",
   "registrations": {
-    "CommandAPI": {
-      "requestedBy": ["Oraxen"],
-      "constraints": [
-        { "plugin": "Oraxen", "minVersion": "11.0.0", "updatePolicy": "MINOR" }
-      ],
-      "mergedConstraint": { "minVersion": "11.0.0" }
-    }
+
   }
 }
