@@ -1,0 +1,25 @@
+# ========================================== #
+#         GRIDLOCK CORE CONFIGURATION        #
+# ========================================== #
+
+settings:
+  # How many chunks does a player start with? (2x2)
+  starting-grid-size: 2
+  
+  # The name of the world where grids will be pasted
+  grid-world: grid_overworld
+  
+  # The exact Y-level the schematic will paste at
+  grid-y-level: -64
+  
+  # The name of the schematic file (without .schem)
+  default-schematic: test
+
+# Here we define the cost to unlock a chunk based on how far it is from the center.
+# Format: Distance : Amount of Fragments needed
+prices:
+  '1': 10
+  '2': 25
+  '3': 50
+  '4': 100
+  '5': 250

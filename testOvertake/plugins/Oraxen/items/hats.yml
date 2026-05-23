@@ -1,0 +1,132 @@
+# Material list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# EntityType list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+# Attribute list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/attribute/Attribute.html
+# Potion effects list for latest spigot version: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionEffectType.html
+# Random UUID generator: https://www.uuidgenerator.net/
+# Color codes: https://docs.adventure.kyori.net/minimessage.html#format
+
+anubis_head:
+  itemname: <gradient:#3948AE:#6699FF>Anubis Head
+  material: PAPER
+  lore:
+  - <#6f737d>» <#D5D6D8>NightVision when worn
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 3
+    operation: 0
+    slot: HEAD
+    uuid: 94642046-2f98-452a-a6e3-89c2a9e4e749
+    name: oraxen:modifier
+    key: oraxen:modifier
+  - attribute: ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    slot: HEAD
+    uuid: 9c204926-df8a-4782-9ddf-36319b935345
+    name: oraxen:modifier
+    key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/anubis_head # .json extension is not mandatory
+    custom_model_data: 1036
+  # before 1.21.2, simply enable hat mechanic
+  Components:
+    equippable:
+      slot: HEAD
+  Mechanics:
+    armor_effects:
+      night_vision:
+        amplifier: 0
+        ambient: true # Makes potion effect produce more, translucent, particles.
+        particles: true # whether this effect has particles or not
+        icon: true # whether this effect has an icon or not
+
+crown:
+  itemname: <gradient:#F06966:#FAD6A6>Crown
+  material: PAPER
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 3
+    operation: 0
+    slot: HEAD
+    uuid: bebc5681-dba7-4c1b-8c85-6a15ee0e78a0
+    name: oraxen:modifier
+    key: oraxen:modifier
+  - attribute: ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    slot: HEAD
+    uuid: b1f3bec6-2da1-4a03-9e28-2ea110a6595e
+    name: oraxen:modifier
+    key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/crown
+    custom_model_data: 1037
+  Components:
+    equippable:
+      slot: HEAD
+
+pharaoh_head:
+  itemname: <gradient:#F06966:#FAD6A6>Pharaoh Head
+  material: PAPER
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 3
+    operation: 0
+    slot: HEAD
+    uuid: b029c06b-8c96-4bd9-be4f-1e8036ebe27d
+    name: oraxen:modifier
+    key: oraxen:modifier
+  - attribute: ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    slot: HEAD
+    uuid: 50915538-e7ac-4cf1-8d92-11cba8cc557e
+    name: oraxen:modifier
+    key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/pharaoh_head
+    custom_model_data: 1038
+  Components:
+    equippable:
+      slot: HEAD
+
+witch_hat:
+  itemname: <gradient:#DF98FA:#9055FF>Witch Hat
+  material: PAPER
+  AttributeModifiers:
+  - attribute: ARMOR
+    amount: 3
+    operation: 0
+    slot: HEAD
+    uuid: 2b0e4d1c-a1e5-41ec-bff7-d578e519a1d3
+    name: oraxen:modifier
+    key: oraxen:modifier
+  - attribute: ARMOR_TOUGHNESS
+    amount: 2
+    operation: 0
+    slot: HEAD
+    uuid: 9b6a18f4-feb9-4bc6-af4b-5fb53bc3ace4
+    name: oraxen:modifier
+    key: oraxen:modifier
+  Pack:
+    generate_model: false
+    model: default/witch_hat
+    custom_model_data: 1039
+  Components:
+    equippable:
+      slot: HEAD
+
+space_helmet:
+  itemname: <#D5D6D8>Space Helmet
+  material: PAPER
+  Pack:
+    generate_model: false
+    model: default/space_helmet
+    custom_model_data: 1040
+  Components:
+    equippable:
+      slot: HEAD
+
