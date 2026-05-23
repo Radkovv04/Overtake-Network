@@ -1,6 +1,10 @@
 {
   "version": 1,
+<<<<<<< Updated upstream
   "generated": "2026-05-23T21:01:38.316687360Z",
+=======
+  "generated": "2026-05-23T21:03:25.278387600Z",
+>>>>>>> Stashed changes
   "dependencies": {
     "CommandAPI": {
       "name": "CommandAPI",

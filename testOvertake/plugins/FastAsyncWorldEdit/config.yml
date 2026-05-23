@@ -110,7 +110,9 @@ web:
 extent:
   # Don't bug console when these plugins slow down WorldEdit operations
   #  - You'll see a message in console or ingame if you need to change this option
-  allowed-plugins: 
+  allowed-plugins:
+  - "io.th0rgal.oraxen.compatibilities.provided.worldedit.WorldEditHandlers$1"
+  - "io.th0rgal.oraxen"
   - "com.example.ExamplePlugin"
   # Should debug messages be sent when third party extents are used?
   debug: true
