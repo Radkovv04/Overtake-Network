@@ -1,0 +1,18 @@
+# OraxenNature Settings
+# Set to true to enable detailed logging for debugging purposes.
+# This will log every action the plugin takes, which can be helpful for troubleshooting,
+# but may impact performance.
+debug: false
+
+# GitHub Version Checker Settings
+# Set to true to enable the GitHub version checker.
+version_checker_enabled: true
+
+# Tree Populator Settings
+# The number of tree blocks to place per server tick during asynchronous generation.
+# Lower values reduce server lag but increase generation time.
+tree_generation_batch_size: 50
+
+# Set to true to suppress INFO level logs from the plugin.
+# Debug logs will still be shown if 'debug' is true.
+suppress_info_logs: false
