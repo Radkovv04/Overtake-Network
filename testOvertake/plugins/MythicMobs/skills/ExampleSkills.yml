@@ -1,0 +1,17 @@
+Thornwalker_Root:
+  Skills:
+    - effect:particles{p=composter;amount=20;speed=0.1} @trigger
+    - potion{type=SLOW;duration=60;amplifier=10} @trigger
+    - message{m="&2Vines grip your feet..."} @trigger
+    - delay 40
+    - potion{type=POISON;duration=40;amplifier=0} @trigger
+    - sound{s=block.vine.place;v=1;p=1} @trigger
+
+Thornwalker_Summon:
+  Skills:
+    - message{m="&2The forest answers the call..."} @PlayersInRadius{r=20}
+    - sound{s=entity.elder_guardian.ambient;v=0.6;p=2} @self
+    - effect:particles{p=spore_blossom_air;amount=30;speed=0.1} @self
+    - summon{mob=VineSprite;amount=2;radius=3} @self
+    - delay 5
+    - summon{mob=VineSprite;amount=1;radius=3} @self

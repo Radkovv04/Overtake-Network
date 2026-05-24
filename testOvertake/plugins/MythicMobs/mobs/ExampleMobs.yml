@@ -1,0 +1,43 @@
+Thornwalker:
+  Type: HUSK
+  Display: '&2Thornwalker'
+  Health: 40
+  Damage: 3
+  Armor: 2
+  MovementSpeed: 0.18
+  Options:
+    PreventOtherDrops: true
+    MovementAI: true
+    Silent: false
+    ModelId: thornwalker
+  Drops:
+    - EMERALD 1 0.05
+    - exp 20 1
+  DamageModifiers:
+    - FIRE 1.5
+    - PROJECTILE 0.5
+  Skills:
+    - model{mid=thornwalker} @self ~onSpawn
+    - skill{s=Thornwalker_Root} @target ~onTimer:60 0.6
+    - skill{s=Thornwalker_Summon} @self ~onTimer:130 0.3
+    - effect:particles{p=happy_villager;amount=8;speed=0.1} @self ~onTimer:20 1
+    - sound{s=block.grass.break;v=1;p=0.8} @self ~onAttack 1
+
+VineSprite:
+  Type: ZOMBIE
+  Display: '&aVine Sprite'
+  Health: 8
+  Damage: 1.5
+  Armor: 0
+  MovementSpeed: 0.28
+  Equipment:
+    - LEATHER_HELMET HEAD
+  Options:
+    PreventOtherDrops: true
+    Silent: false
+    Baby: true
+  Drops:
+    - exp 3 1
+  Skills:
+    - effect:particles{p=composter;amount=5;speed=0.1} @self ~onTimer:10 1
+    - potion{type=WITHER;duration=20;level=1} @trigger ~onAttack
