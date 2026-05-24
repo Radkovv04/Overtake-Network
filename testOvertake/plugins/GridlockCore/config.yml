@@ -13,7 +13,7 @@ settings:
   grid-y-level: -64
   
   # The name of the schematic file (without .schem)
-  default-schematic: test
+  default-schematic: TestWorldOvertake
 
 # Here we define the cost to unlock a chunk based on how far it is from the center.
 # Format: Distance : Amount of Fragments needed

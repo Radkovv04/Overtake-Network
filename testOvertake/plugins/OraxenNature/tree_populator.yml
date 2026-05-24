@@ -1,0 +1,63 @@
+trees:
+  oak_tree:
+    enabled: true
+    log_oraxen_id: "oak_log"
+    leaf_oraxen_id: "oak_leaves"
+    chance: 0.1 # 10% chance to spawn in a chunk
+    worlds:
+      - world
+    biomes:
+      - PLAINS
+      - FOREST
+    surface_materials:
+      - GRASS_BLOCK
+      - DIRT
+
+    # New Simplified Configuration
+    shape: "OAK" # OAK or PINE
+    height:
+      min: 6
+      max: 9
+    canopy:
+      radius:
+        min: 3
+        max: 4
+      density: 0.7
+
+  pine_tree:
+    enabled: true
+    log_oraxen_id: "spruce_log"
+    leaf_oraxen_id: "spruce_leaves"
+    chance: 0.05 # 5% chance to spawn in a chunk
+    worlds:
+      - world
+    biomes:
+      - TAIGA
+    surface_materials:
+      - GRASS_BLOCK
+      - DIRT
+
+    # New Simplified Configuration
+    shape: "PINE"
+    height:
+      min: 8
+      max: 12
+    canopy:
+      radius:
+        min: 2
+        max: 3
+      density: 0.8
+
+  schematic_tree:
+    enabled: true
+    schematic: "my_awesome_tree.schem" # The name of the schematic file in the schematics folder
+    chance: 0.2 # 20% chance to spawn in a chunk
+    worlds:
+      - world
+    biomes:
+      - FOREST
+    surface_materials:
+      - GRASS_BLOCK
+    block_replacements:
+      STONE: "my_custom_stone_oraxen_id"
+      OAK_LOG: "my_custom_log_oraxen_id"
