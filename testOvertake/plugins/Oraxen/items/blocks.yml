@@ -33,13 +33,14 @@ silver_block:
     parent_model: block/cube_all
     textures:
     - default/silver_block
+    custom_model_data: 1019
   Mechanics:
     noteblock:
       interactable: false
       block_sounds:
         break_sound: block.stone.break
         place_sound: block.stone.place
-      custom_variation: 1
+      custom_variation: 2
       model: silver_block
       hardness: 7
       drop:
@@ -48,5 +49,5 @@ silver_block:
         minimal_type: IRON
         loots:
         - probability: 1.0
-          oraxen_item: silver_block
+          oraxen_item: silver_block_item
         best_tool: PICKAXE

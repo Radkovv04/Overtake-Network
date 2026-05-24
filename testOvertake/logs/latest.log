@@ -1,6 +1,415 @@
-[02:05:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-1-Debian; Debian null) on Linux 6.18.9+kali-amd64 (amd64)
-[02:05:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
-[02:05:59] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[02:06:00] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
-[02:06:00] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
- - CommandAPI (11.2.0), CustomCrafting (4.19.1.0), FastAsyncWorldEdit (2.15.0+59372c5), GridlockCore (1.0-SNAPSHOT), Iris (3.9.1-1.20.1-1.21.11), Multiverse-Core (5.6.2), NBTAPI (2.15.7), Oraxen (1.213.0), VoidWorld (1.0), WolfyUtilities (4.19.1.2), packetevents (2.12.1)
+[03:12:18] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-1-Debian; Debian null) on Linux 6.18.9+kali-amd64 (amd64)
+[03:12:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[03:12:19] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:12:20] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[03:12:20] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - CommandAPI (11.2.0), CustomCrafting (4.19.1.0), FastAsyncWorldEdit (2.15.0+59372c5), GridlockCore (1.0-SNAPSHOT), Multiverse-Core (5.6.2), NBTAPI (2.15.7), Oraxen (1.213.0), VoidWorld (1.0), WolfyUtilities (4.19.1.2), packetevents (2.12.1)
+[03:12:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:12:37] [ServerMain/INFO]: Loaded 1370 recipes
+[03:12:37] [ServerMain/INFO]: Loaded 1481 advancements
+[03:12:37] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[03:12:38] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 599.8ms
+[03:12:38] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[03:12:38] [Server thread/WARN]: ****************************
+[03:12:38] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[03:12:38] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[03:12:38] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[03:12:38] [Server thread/WARN]: ****************************
+[03:12:38] [Server thread/INFO]: Loading properties
+[03:12:38] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[03:12:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:12:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:12:38] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:12:40] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[03:12:40] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[03:12:41] [Server console handler/WARN]: [org.jline] Failed to load history
+java.lang.IllegalArgumentException: Bad history file syntax! The history file `.console_history` may be an older history: please remove it or use a different history file.
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:175) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.addHistoryLine(DefaultHistory.java:165) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.lambda$load$0(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762) ~[?:?]
+	at org.jline.reader.impl.history.DefaultHistory.load(DefaultHistory.java:86) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.history.DefaultHistory.attach(DefaultHistory.java:69) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:603) ~[jline-reader-3.20.0.jar:?]
+	at org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468) ~[jline-reader-3.20.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141) ~[terminalconsoleappender-1.3.0.jar:?]
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:109) ~[paper-1.21.4.jar:1.21.4-232-12d8fe0]
+[03:12:41] [Server thread/INFO]: Default game type: SURVIVAL
+[03:12:41] [Server thread/INFO]: Generating keypair
+[03:12:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:12:41] [Server thread/INFO]: Using epoll channel type
+[03:12:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:12:41] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loading 11 libraries... please wait
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/springframework/spring-expression/6.0.6/spring-expression-6.0.6.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/springframework/spring-core/6.0.6/spring-core-6.0.6.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/springframework/spring-jcl/6.0.6/spring-jcl-6.0.6.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-text-serializer-ansi/4.17.0/adventure-text-serializer-ansi-4.17.0.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/ansi/1.0.3/ansi-1.0.3.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-text-serializer-plain/4.17.0/adventure-text-serializer-plain-4.17.0.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-platform-bukkit/4.3.4/adventure-platform-bukkit-4.3.4.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-platform-api/4.3.4/adventure-platform-api-4.3.4.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.4/adventure-text-serializer-bungeecord-4.3.4.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-platform-facet/4.3.4/adventure-platform-facet-4.3.4.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-platform-viaversion/4.3.4/adventure-platform-viaversion-4.3.4.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/gs/mclo/java/2.2.1/java-2.2.1.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/team/unnamed/creative-api/1.7.3/creative-api-1.7.3.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/net/kyori/adventure-key/4.9.3/adventure-key-4.9.3.jar
+[03:12:42] [Server thread/INFO]: [SpigotLibraryLoader] [Oraxen] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/jetbrains/annotations/23.1.0/annotations-23.1.0.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loading 3 libraries... please wait
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/inject/guice/5.1.0/guice-5.1.0.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/aopalliance/aopalliance/1.0/aopalliance-1.0.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/guava/guava/30.1-jre/guava-30.1-jre.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[03:12:43] [Server thread/INFO]: [SpigotLibraryLoader] [WolfyUtilities] Loaded library /home/fuz/Desktop/Overtake-Network/testOvertake/libraries/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar
+[03:12:46] [Server thread/INFO]: [me.wolfyscript.lib.org.reflections.Reflections] Reflections took 1185 ms to scan 1 urls, producing 916 keys and 3327 values
+[03:12:47] [Server thread/INFO]: [WolfyUtilities] Register Default StackIdentifiers
+[03:12:47] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[03:13:07] [Server thread/WARN]: Legacy plugin VoidWorld v1.0 does not specify an api-version.
+[03:13:07] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.15.7
+[03:13:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[03:13:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[03:13:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[03:13:07] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.15.0+59372c5
+[03:13:08] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[03:13:09] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@32a5d6de]
+[03:13:09] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.12.1
+[03:13:14] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v11.2.0
+[03:13:15] [Server thread/INFO]: [CommandAPI] Loaded version PaperNMS_1_21_R3
+[03:13:15] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[03:13:15] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[03:13:15] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[03:13:15] [Server thread/INFO]: [CommandAPI] Loaded platform CommandAPIPaper > CommandAPIBukkit
+[03:13:15] [Server thread/INFO]: [Oraxen] Loading server plugin Oraxen v1.213.0
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Loading server plugin WolfyUtilities v4.19.1.2
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register JSON de-/serializers
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register JSON Operators
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register JSON Value Providers
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register CustomItem NBT Checks
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Actions
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register CustomItem Events
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register Particle Animators
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register Particle Shapes
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register Particle Timers
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register Custom Block Data
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register Custom Player Data
+[03:13:15] [Server thread/INFO]: [WolfyUtilities] Register NBT Query Nodes
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Loading server plugin CustomCrafting v4.19.1.0
+[03:13:15] [Server thread/INFO]: [CustomCrafting] WolfyUtils API: v4.19.1.2
+[03:13:15] [Server thread/INFO]: [CustomCrafting] CustomCrafting: v4.19.1.0
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Environment   : PROD
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering CustomItem Data
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Custom Block Data
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Player Data
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Result Extensions
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Result Merge Adapters
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Recipe Conditions
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Recipe Types
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Anvil Recipe Tasks
+[03:13:15] [Server thread/INFO]: [CustomCrafting] Registering Type Registries
+[03:13:15] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.6.2
+[03:13:15] [Server thread/INFO]: [VoidWorld] Loading server plugin VoidWorld v1.0
+[03:13:15] [Server thread/INFO]: [GridlockCore] Loading server plugin GridlockCore v1.0-SNAPSHOT
+[03:13:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:13:15] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.15.0+59372c5
+[03:13:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[03:13:15] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[03:13:15] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:13:15] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[03:13:16] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_4.PaperweightFaweAdapter as the Bukkit adapter
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] Enabling WolfyUtilities v4.19.1.2
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] Minecraft version: 1.21.4
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] WolfyUtils version: 4.19.1.2
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] Environment: PROD
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] Loading Plugin integrations: 
+[03:13:17] [Server thread/INFO]: [WolfyUtilities]  - Oraxen
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] Create & Init Plugin integrations: 
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] Register API references
+[03:13:17] [Server thread/INFO]: [WolfyUtilities] Loading Creative Mode Tabs
+[03:13:18] [Server thread/INFO]: [VoidWorld] Enabling VoidWorld v1.0*
+[03:13:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:13:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:13:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:13:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:13:18] [Server thread/INFO]: Preparing level "world"
+[03:13:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:13:19] [Server thread/INFO]: Preparing spawn area: 0%
+[03:13:19] [Server thread/INFO]: Preparing spawn area: 0%
+[03:13:19] [Server thread/INFO]: Preparing spawn area: 6%
+[03:13:21] [Server thread/INFO]: Preparing spawn area: 24%
+[03:13:21] [Server thread/INFO]: Preparing spawn area: 24%
+[03:13:21] [Server thread/INFO]: Time elapsed: 2368 ms
+[03:13:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:13:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:13:21] [Server thread/INFO]: Preparing spawn area: 79%
+[03:13:21] [Server thread/INFO]: Time elapsed: 534 ms
+[03:13:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:13:21] [Server thread/INFO]: Preparing spawn area: 0%
+[03:13:22] [Server thread/INFO]: Time elapsed: 244 ms
+[03:13:22] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.15.7
+[03:13:22] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[03:13:22] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[03:13:22] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[03:13:22] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[03:13:23] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[03:13:23] [Server thread/INFO]: [packetevents] Enabling packetevents v2.12.1
+[03:13:23] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[03:13:23] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v11.2.0
+[03:13:23] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[03:13:23] [Server thread/INFO]: [Oraxen] Enabling Oraxen v1.213.0
+[03:13:24] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.12.1)
+[03:13:25] [Server thread/INFO]: Oraxen | TextEffects.shader.encoding 'alpha_lsb' is deprecated. Using 'effect_font'.
+[03:13:25] [Server thread/INFO]: Oraxen | Loaded 4 text effects
+[03:13:25] [Server thread/INFO]: Oraxen | Loaded 16 glyphs, 0 reference glyphs, 1 animated glyphs
+[03:13:25] [Server thread/INFO]: Oraxen | No HUDs loaded, skipping task registration
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "bedrock_pickaxe" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'bedrock_pickaxe': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "obsidian_sword" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "obsidian_helmet" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_helmet': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "obsidian_chestplate" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_chestplate': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "obsidian_leggings" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_leggings': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "obsidian_boots" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_boots': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "glass_sword" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'glass_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "amethyst" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'amethyst': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "ruby" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'ruby': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "onyx" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'onyx': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:25] [Server thread/INFO]: Oraxen | The recipe "orax" is invalid, please ensure all its ingredients exist in your config
+[03:13:25] [Server thread/INFO]: Oraxen | Failed to load recipe 'orax': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:13:26] [Server thread/INFO]: Oraxen | Successfully loaded on Kali GNU/Linux Rolling
+[03:13:26] [Server thread/INFO]: [WolfyUtilities] Enabled plugin integration for Oraxen
+[03:13:26] [Server thread/INFO]: [CustomCrafting] Enabling CustomCrafting v4.19.1.0
+[03:13:26] [Server thread/INFO]: [CustomCrafting] Loaded fallback language "en_US" v6.1.0 translated by WolfyScript
+[03:13:27] [Server thread/INFO]: [CustomCrafting] Loaded active language "en_US" v6.1.0 translated by WolfyScript
+[03:13:27] [Server thread/INFO]: [CustomCrafting] ____ _  _ ____ ___ ____ _  _ ____ ____ ____ ____ ___ _ _  _ ____ 
+[03:13:27] [Server thread/INFO]: [CustomCrafting] |    |  | [__   |  |  | |\/| |    |__/ |__| |___  |  | |\ | | __ 
+[03:13:27] [Server thread/INFO]: [CustomCrafting] |___ |__| ___]  |  |__| |  | |___ |  \ |  | |     |  | | \| |__]
+[03:13:27] [Server thread/INFO]: [CustomCrafting]     Version      | v4.19.1.0
+[03:13:27] [Server thread/INFO]: [CustomCrafting]     WolfyUtils   | v4.19.1.2
+[03:13:27] [Server thread/INFO]: [CustomCrafting]     Bukkit       | 1.21.4-232-12d8fe0 (MC: 1.21.4)(API: 1.21.4-R0.1-SNAPSHOT)
+[03:13:27] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:13:27] [Server thread/INFO]: [CustomCrafting] 
+[03:13:27] [Server thread/INFO]: [CustomCrafting] Special thanks to my Patrons for supporting this project: 
+[03:13:27] [Server thread/INFO]: [CustomCrafting] Omarlatif, Nat R, Obsidian_Sword, LiveJunye, Mithran, Teddy
+[03:13:27] [Server thread/INFO]: [CustomCrafting] Invictus_Vulpes , Luuk Musch, fioxu, JorshStark, Perny Dev, Charlie
+[03:13:27] [Server thread/INFO]: [CustomCrafting] iachen, whja t, Green Masks, lance fector, Jack Snellings, MineHouse Server
+[03:13:27] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[03:13:27] [Server thread/INFO]: [CustomCrafting] Data destination: LOCAL
+[03:13:27] [Server thread/INFO]: [CustomCrafting] Initiating Inventory GUIs
+[03:13:27] [Server thread/INFO]: [CustomCrafting] Register ItemCreator Tabs
+[03:13:29] [Server thread/INFO]: [CustomCrafting] Loading Recipes & Items
+[03:13:29] [Server thread/INFO]: [CustomCrafting] - - - - [Local Storage] - - - -
+[03:13:29] [Server thread/INFO]: [CustomCrafting] [LOCAL] Using 8 threads
+[03:13:29] [Server thread/INFO]: [CustomCrafting] [LOCAL] Looking through data folder...
+[03:13:29] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Items
+[03:13:29] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loading Recipes
+[03:13:30] [Server thread/INFO]: [CustomCrafting] [LOCAL] Loaded 5 recipes in 308ms
+[03:13:30] [Server thread/INFO]: [CustomCrafting] Indexing Recipe Book...
+[03:13:30] [Server thread/INFO]: [CustomCrafting] Indexed Recipe Book!
+[03:13:30] [Server thread/INFO]: [CustomCrafting] ------------------------------------------------------------------------
+[03:13:30] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.6.2
+[03:13:32] [Server thread/INFO]: Preparing start region for dimension minecraft:grid_overworld
+[03:13:32] [Server thread/INFO]: Preparing spawn area: 0%
+[03:13:32] [Server thread/INFO]: Time elapsed: 271 ms
+[03:13:33] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[03:13:33] [Server thread/INFO]: [Multiverse-Core] Version 5.6.2 (API v5.6) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[03:13:33] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[03:13:33] [Server thread/INFO]: [GridlockCore] Enabling GridlockCore v1.0-SNAPSHOT
+[03:13:33] [Server thread/INFO]: [GridlockCore] ====================================
+[03:13:33] [Server thread/INFO]: [GridlockCore]  GridlockCore is starting up...
+[03:13:33] [Server thread/INFO]: [GridlockCore]  Engines and Listeners Initialized successfully.
+[03:13:33] [Server thread/INFO]: [GridlockCore] ====================================
+[03:13:34] [Server thread/INFO]: [spark] Starting background profiler...
+[03:13:35] [Server thread/INFO]: Done preparing level "world" (17.365s)
+[03:13:35] [Server thread/INFO]: Running delayed init tasks
+[03:13:35] [Server thread/INFO]: Oraxen | Processing 1 animated glyphs...
+[03:13:35] [Server thread/INFO]: Oraxen | Generated animation font for: spinner (16 frames @ 16 fps)
+[03:13:36] [Server thread/INFO]: Done (78.797s)! For help, type "help"
+[03:13:36] [Server thread/INFO]: Oraxen | Generated Custom-Armor datapack. A server restart is required for this feature to work.
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/blocks/iron.json: blocks/iron
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/silver_block.json: silver_ore
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+[03:13:37] [Oraxen-PackWorker/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[03:13:37] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
+[03:13:38] [Craft Scheduler Thread - 5 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[03:13:40] [Craft Scheduler Thread - 5 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=9ef763a47a154bee9801a405c94617a1ec60980d in 1973 ms
+[03:13:44] [User Authenticator #0/INFO]: UUID of player CellFuzzy is c248cb39-2440-3306-9028-edbc003d333a
+[03:13:45] [Server thread/INFO]: CellFuzzy joined the game
+[03:13:45] [Server thread/INFO]: CellFuzzy[/127.0.0.1:46532] logged in with entity id 55 at ([grid_overworld]2007.1804771956463, 10.376059628477483, 7.216191610508513)
+[03:13:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2863ms or 57 ticks behind
+[03:13:52] [Server thread/INFO]: CellFuzzy fell from a high place
+[03:14:21] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload all
+[03:14:22] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[03:14:22] [Server thread/INFO]: Oraxen | TextEffects.shader.encoding 'alpha_lsb' is deprecated. Using 'effect_font'.
+[03:14:22] [Server thread/INFO]: Oraxen | Loaded 4 text effects
+[03:14:22] [Server thread/INFO]: Oraxen | Loaded 16 glyphs, 0 reference glyphs, 1 animated glyphs
+[03:14:22] [Server thread/INFO]: Oraxen | No HUDs loaded, skipping task registration
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "bedrock_pickaxe" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'bedrock_pickaxe': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "obsidian_sword" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "obsidian_helmet" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_helmet': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "obsidian_chestplate" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_chestplate': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "obsidian_leggings" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_leggings': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "obsidian_boots" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_boots': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "glass_sword" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'glass_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "amethyst" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'amethyst': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "ruby" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'ruby': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "onyx" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'onyx': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | The recipe "orax" is invalid, please ensure all its ingredients exist in your config
+[03:14:22] [Server thread/INFO]: Oraxen | Failed to load recipe 'orax': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:14:22] [Server thread/INFO]: Oraxen | Processing 1 animated glyphs...
+[03:14:22] [Server thread/INFO]: Oraxen | Generated animation font for: spinner (16 frames @ 16 fps)
+[03:14:22] [Server thread/INFO]: Oraxen | Generated Custom-Armor datapack. A server restart is required for this feature to work.
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/blocks/iron.json: blocks/iron
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/silver_block.json: silver_ore
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+[03:14:22] [Oraxen-PackWorker/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[03:14:22] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
+[03:14:23] [Craft Scheduler Thread - 5 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[03:14:25] [Craft Scheduler Thread - 5 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=9ef763a47a154bee9801a405c94617a1ec60980d in 1783 ms
+[03:14:28] [Server thread/INFO]: CellFuzzy issued server command: /gamemode creative
+[03:14:28] [Server thread/INFO]: [CellFuzzy: Set own game mode to Creative Mode]
+[03:14:36] [Server thread/INFO]: CellFuzzy issued server command: /oraxen inventory
+[03:16:22] [Server thread/INFO]: CellFuzzy issued server command: /gamemode creative
+[03:16:27] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload
+[03:16:30] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload all
+[03:16:30] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[03:16:30] [Server thread/INFO]: Oraxen | TextEffects.shader.encoding 'alpha_lsb' is deprecated. Using 'effect_font'.
+[03:16:30] [Server thread/INFO]: Oraxen | Loaded 4 text effects
+[03:16:30] [Server thread/INFO]: Oraxen | Loaded 16 glyphs, 0 reference glyphs, 1 animated glyphs
+[03:16:30] [Server thread/INFO]: Oraxen | No HUDs loaded, skipping task registration
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "bedrock_pickaxe" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'bedrock_pickaxe': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "obsidian_sword" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "obsidian_helmet" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_helmet': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "obsidian_chestplate" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_chestplate': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "obsidian_leggings" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_leggings': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "obsidian_boots" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_boots': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "glass_sword" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'glass_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "amethyst" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'amethyst': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "ruby" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'ruby': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "onyx" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'onyx': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | The recipe "orax" is invalid, please ensure all its ingredients exist in your config
+[03:16:30] [Server thread/INFO]: Oraxen | Failed to load recipe 'orax': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[03:16:30] [Server thread/INFO]: Oraxen | Processing 1 animated glyphs...
+[03:16:30] [Server thread/INFO]: Oraxen | Generated animation font for: spinner (16 frames @ 16 fps)
+[03:16:30] [Server thread/INFO]: Oraxen | Generated Custom-Armor datapack. A server restart is required for this feature to work.
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/blocks/iron.json: blocks/iron
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/silver_block.json: silver_ore
+[03:16:30] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[03:16:31] [Oraxen-PackWorker/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[03:16:31] [Oraxen-PackWorker/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+[03:16:31] [Oraxen-PackWorker/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[03:16:31] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
+[03:16:31] [Craft Scheduler Thread - 14 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[03:16:33] [Craft Scheduler Thread - 14 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=f752ce10c5994e637a53f4b8a7850bc315903ecd in 1641 ms
