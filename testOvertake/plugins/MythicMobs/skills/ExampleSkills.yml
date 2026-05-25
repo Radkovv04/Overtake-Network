@@ -12,6 +12,6 @@ Thornwalker_Summon:
     - message{m="&2The forest answers the call..."} @PlayersInRadius{r=20}
     - sound{s=entity.elder_guardian.ambient;v=0.6;p=2} @self
     - effect:particles{p=spore_blossom_air;amount=30;speed=0.1} @self
-    - summon{mob=VineSprite;amount=2;radius=3} @self
+    - summon{mob=Thorning;amount=2;radius=3} @self
     - delay 5
-    - summon{mob=VineSprite;amount=1;radius=3} @self
+    - summon{mob=Thorning;amount=1;radius=3} @self

@@ -23,9 +23,9 @@ Thornwalker:
     - effect:particles{p=happy_villager;amount=8;speed=0.1} @self ~onTimer:20 1
     - sound{s=block.grass.break;v=1;p=0.8} @self ~onAttack 1
 
-VineSprite:
-  Type: ZOMBIE
-  Display: '&aVine Sprite'
+Thorning:
+  Type: HUSK
+  Display: '&aThorning'
   Health: 8
   Damage: 1.5
   Armor: 0
@@ -39,5 +39,6 @@ VineSprite:
   Drops:
     - exp 3 1
   Skills:
+    - model{mid=thorning} @self ~onSpawn
     - effect:particles{p=composter;amount=5;speed=0.1} @self ~onTimer:10 1
     - potion{type=WITHER;duration=20;level=1} @trigger ~onAttack
