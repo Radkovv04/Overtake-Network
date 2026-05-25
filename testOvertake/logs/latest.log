@@ -843,3 +843,89 @@ Download from https://modrinth.com/plugin/fastasyncworldedit or https://hangar.p
 [20:48:34] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
 [20:48:36] [Craft Scheduler Thread - 17 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
 [20:48:42] [Craft Scheduler Thread - 17 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=4276883976759bc65e45f73fe8324d0afb66db72 in 6531 ms
+[20:53:14] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload all
+[20:53:15] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[20:53:15] [Server thread/INFO]: Oraxen | The maximum image size is 256x256.
+[20:53:15] [Server thread/INFO]: Oraxen | The texture specified for required is larger than the supported size. This will break all your glyphs.
+[20:53:15] [Server thread/INFO]: Oraxen | It has been temporarily set to a placeholder image. You should edit this in the glyph config.
+[20:53:15] [Server thread/INFO]: Oraxen | TextEffects.shader.encoding 'alpha_lsb' is deprecated. Using 'effect_font'.
+[20:53:15] [Server thread/INFO]: Oraxen | Loaded 4 text effects
+[20:53:15] [Server thread/INFO]: Oraxen | Loaded 16 glyphs, 0 reference glyphs, 1 animated glyphs
+[20:53:15] [Server thread/INFO]: Oraxen | No HUDs loaded, skipping task registration
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "bedrock_pickaxe" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'bedrock_pickaxe': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "obsidian_sword" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "obsidian_helmet" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_helmet': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "obsidian_chestplate" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_chestplate': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "obsidian_leggings" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_leggings': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "obsidian_boots" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_boots': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "glass_sword" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'glass_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "amethyst" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'amethyst': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "ruby" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'ruby': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "onyx" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'onyx': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | The recipe "orax" is invalid, please ensure all its ingredients exist in your config
+[20:53:15] [Server thread/INFO]: Oraxen | Failed to load recipe 'orax': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[20:53:15] [Server thread/INFO]: Oraxen | Processing 1 animated glyphs...
+[20:53:15] [Server thread/INFO]: Oraxen | Generated animation font for: spinner (16 frames @ 16 fps)
+[20:53:16] [Server thread/INFO]: Oraxen | Generated Custom-Armor datapack. A server restart is required for this feature to work.
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/silver_block.json: silver_ore
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/blocks/iron.json: blocks/iron
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Found unreadable texture at assets/minecraft/textures/required/casfs.png
+[20:53:16] [Oraxen-PackWorker/INFO]: Oraxen | Image format may be corrupt or unsupported by ImageIO.
+
+[20:53:17] [Oraxen-PackWorker/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[20:53:17] [Oraxen-PackWorker/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+[20:53:17] [Oraxen-PackWorker/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[20:53:17] [Oraxen-PackWorker/INFO]: Oraxen | Excluding malformed texture from atlas-file: assets/minecraft/textures/required/casfs.png
+[20:53:17] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
+[20:53:18] [Craft Scheduler Thread - 18 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[20:53:27] [Craft Scheduler Thread - 18 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=d862edcff61967ccfb63918c49c4171e602d1b2c in 9123 ms
+[20:53:47] [Server thread/INFO]: CellFuzzy issued server command: /gamemode survival
+[20:53:47] [Server thread/INFO]: [CellFuzzy: Set own game mode to Survival Mode]
+[20:53:52] [Server thread/INFO]: CellFuzzy issued server command: /gamemode creative
+[20:53:52] [Server thread/INFO]: [CellFuzzy: Set own game mode to Creative Mode]
+[20:54:07] [Server thread/INFO]: CellFuzzy issued server command: /mv tp world
+[20:54:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2561ms or 51 ticks behind
+[20:54:24] [Server thread/INFO]: [ERROR] Schematic file not found: plugins/OraxenNature/schematics/my_awesome_tree.schem
+[20:54:24] [Server thread/INFO]: [INFO] Successfully spawned tree 'schematic_tree' at 272.0,64.0,496.0
+[20:54:30] [Server thread/INFO]: [ERROR] Schematic file not found: plugins/OraxenNature/schematics/my_awesome_tree.schem
+[20:54:30] [Server thread/INFO]: [INFO] Successfully spawned tree 'schematic_tree' at 193.0,72.0,477.0
+[20:54:32] [Server thread/INFO]: [INFO] Successfully spawned tree 'oak_tree' at 251.0,63.0,558.0
+[20:54:32] [Server thread/INFO]: [ERROR] Schematic file not found: plugins/OraxenNature/schematics/my_awesome_tree.schem
+[20:54:32] [Server thread/INFO]: [INFO] Successfully spawned tree 'schematic_tree' at 246.0,62.0,551.0
+[20:54:34] [Server thread/INFO]: [INFO] Successfully spawned tree 'oak_tree' at 545.0,64.0,290.0
+[20:54:36] [Server thread/INFO]: [ERROR] Schematic file not found: plugins/OraxenNature/schematics/my_awesome_tree.schem
+[20:54:36] [Server thread/INFO]: [INFO] Successfully spawned tree 'schematic_tree' at 209.0,65.0,555.0
+[20:54:37] [Server thread/INFO]: [INFO] Successfully spawned tree 'oak_tree' at 237.0,64.0,580.0
+[20:54:37] [Server thread/INFO]: [ERROR] Schematic file not found: plugins/OraxenNature/schematics/my_awesome_tree.schem
+[20:54:37] [Server thread/INFO]: [INFO] Successfully spawned tree 'schematic_tree' at 228.0,64.0,585.0
+[20:55:07] [Server thread/INFO]: CellFuzzy issued server command: /give CellFuzzy minecraft:crafting_table
+[20:55:07] [Server thread/INFO]: [CellFuzzy: Gave 1 [Crafting Table] to CellFuzzy]
