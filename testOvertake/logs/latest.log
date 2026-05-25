@@ -1310,3 +1310,375 @@ Download from https://modrinth.com/plugin/fastasyncworldedit or https://hangar.p
 [02:39:42] [pool-14-thread-6/INFO]: [ModelEngine] [A]  - Assets Phase: 279.8ms
 [02:39:42] [pool-14-thread-6/INFO]: [ModelEngine] [A]  - Zipping Phase: 262.7ms
 [02:39:52] [Server thread/INFO]: CellFuzzy issued server command: /meg summon thornwalker
+[04:14:54] [Server thread/WARN]: [ModelEngine] [S] Unable to activate MineSkin skin generation: Empty API Key
+[04:14:54] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[04:14:54] [Server thread/INFO]: [ModelEngine] [S] Skin mappings reloaded.
+[04:14:54] [ForkJoinPool.commonPool-worker-10/INFO]: [ModelEngine] [A] 
+[04:14:54] [ForkJoinPool.commonPool-worker-10/INFO]: [ModelEngine] [A] [Importing models]
+[04:14:54] [ForkJoinPool.commonPool-worker-10/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[04:14:54] [pool-14-thread-3/INFO]: [ModelEngine] [A] Importing internal_fire.bbmodel.
+[04:14:54] [pool-14-thread-3/INFO]: [ModelEngine] [A] 
+[04:14:54] [pool-14-thread-3/INFO]: [ModelEngine] [A] Importing thornwalker.json.
+[04:14:54] [pool-14-thread-3/WARN]: [ModelEngine] [A] --Error: Unknown format.
+[04:14:55] [pool-14-thread-5/INFO]: [ModelEngine] [A] 
+[04:14:55] [pool-14-thread-5/INFO]: [ModelEngine] [A] Importing thornwalker.bbmodel.
+[04:14:55] [pool-14-thread-5/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[04:14:55] [pool-14-thread-10/INFO]: [ModelEngine] [A] 
+[04:14:55] [pool-14-thread-10/INFO]: [ModelEngine] [A] Importing thorning.bbmodel.
+[04:14:55] [pool-14-thread-10/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[04:14:55] [ForkJoinPool.commonPool-worker-10/INFO]: [ModelEngine] [A] 
+[04:14:55] [ForkJoinPool.commonPool-worker-10/INFO]: [ModelEngine] [A] 3 models loaded.
+[04:14:57] [pool-14-thread-4/INFO]: [ModelEngine] [A] 
+[04:14:57] [pool-14-thread-4/INFO]: [ModelEngine] [A] Resource pack zipped.
+[04:14:57] [pool-14-thread-4/INFO]: [ModelEngine] [A] Generator Profiled:
+[04:14:57] [pool-14-thread-4/INFO]: [ModelEngine] [A]  - Import Phase: 130.0ms
+[04:14:57] [pool-14-thread-4/INFO]: [ModelEngine] [A]  - Assets Phase: 1,299.9ms
+[04:14:57] [pool-14-thread-4/INFO]: [ModelEngine] [A]  - Zipping Phase: 865.9ms
+[04:16:29] [Server thread/INFO]: CellFuzzy issued server command: /weather clear
+[04:16:29] [Server thread/INFO]: [CellFuzzy: Set the weather to clear]
+[04:16:35] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload all
+[04:16:36] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[04:16:36] [Server thread/INFO]: Oraxen | TextEffects.shader.encoding 'alpha_lsb' is deprecated. Using 'effect_font'.
+[04:16:36] [Server thread/INFO]: Oraxen | Loaded 4 text effects
+[04:16:36] [Server thread/INFO]: Oraxen | Loaded 16 glyphs, 0 reference glyphs, 1 animated glyphs
+[04:16:36] [Server thread/INFO]: Oraxen | No HUDs loaded, skipping task registration
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "bedrock_pickaxe" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'bedrock_pickaxe': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "obsidian_sword" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "obsidian_helmet" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_helmet': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "obsidian_chestplate" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_chestplate': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "obsidian_leggings" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_leggings': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "obsidian_boots" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_boots': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "glass_sword" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'glass_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "amethyst" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'amethyst': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "ruby" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'ruby': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "onyx" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'onyx': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | The recipe "orax" is invalid, please ensure all its ingredients exist in your config
+[04:16:36] [Server thread/INFO]: Oraxen | Failed to load recipe 'orax': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[04:16:36] [Server thread/INFO]: Oraxen | Processing 1 animated glyphs...
+[04:16:36] [Server thread/INFO]: Oraxen | Generated animation font for: spinner (16 frames @ 16 fps)
+[04:16:37] [Server thread/INFO]: Oraxen | Generated Custom-Armor datapack. A server restart is required for this feature to work.
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/silver_block.json: silver_ore
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/blocks/iron.json: blocks/iron
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+[04:16:37] [Oraxen-PackWorker/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[04:16:37] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
+[04:16:38] [Craft Scheduler Thread - 5 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[04:16:43] [Craft Scheduler Thread - 5 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=a96b2fdf53609127b0bea87101d0b67da0ce3cef in 4887 ms
+[04:16:57] [Server thread/INFO]: CellFuzzy issued server command: /meg summon thornwalker
+[04:17:05] [Server thread/INFO]: [ERROR] Schematic file not found: plugins/OraxenNature/schematics/my_awesome_tree.schem
+[04:17:05] [Server thread/INFO]: [INFO] Successfully spawned tree 'schematic_tree' at 7.0,63.0,758.0
+[04:17:25] [Server thread/INFO]: [INFO] Successfully spawned tree 'oak_tree' at -42.0,69.0,364.0
+[05:02:59] [Server thread/WARN]: [ModelEngine] [S] Unable to activate MineSkin skin generation: Empty API Key
+[05:02:59] [Server thread/INFO]: [ModelEngine] [S] Config reloaded.
+[05:02:59] [Server thread/INFO]: [ModelEngine] [S] Skin mappings reloaded.
+[05:02:59] [ForkJoinPool.commonPool-worker-11/INFO]: [ModelEngine] [A] 
+[05:02:59] [ForkJoinPool.commonPool-worker-11/INFO]: [ModelEngine] [A] [Importing models]
+[05:02:59] [ForkJoinPool.commonPool-worker-11/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[05:02:59] [pool-14-thread-2/INFO]: [ModelEngine] [A] 
+[05:02:59] [pool-14-thread-2/INFO]: [ModelEngine] [A] Importing thornwalker.json.
+[05:02:59] [pool-14-thread-2/WARN]: [ModelEngine] [A] --Error: Unknown format.
+[05:02:59] [pool-14-thread-5/INFO]: [ModelEngine] [A] Importing internal_fire.bbmodel.
+[05:02:59] [pool-14-thread-7/INFO]: [ModelEngine] [A] 
+[05:02:59] [pool-14-thread-7/INFO]: [ModelEngine] [A] Importing thornwalker.bbmodel.
+[05:02:59] [pool-14-thread-7/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[05:02:59] [pool-14-thread-10/INFO]: [ModelEngine] [A] 
+[05:02:59] [pool-14-thread-10/INFO]: [ModelEngine] [A] Importing thorning.bbmodel.
+[05:02:59] [pool-14-thread-10/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[05:02:59] [ForkJoinPool.commonPool-worker-11/INFO]: [ModelEngine] [A] 
+[05:02:59] [ForkJoinPool.commonPool-worker-11/INFO]: [ModelEngine] [A] 3 models loaded.
+[05:03:00] [pool-14-thread-6/INFO]: [ModelEngine] [A] 
+[05:03:00] [pool-14-thread-6/INFO]: [ModelEngine] [A] Resource pack zipped.
+[05:03:00] [pool-14-thread-6/INFO]: [ModelEngine] [A] Generator Profiled:
+[05:03:00] [pool-14-thread-6/INFO]: [ModelEngine] [A]  - Import Phase: 38.3ms
+[05:03:00] [pool-14-thread-6/INFO]: [ModelEngine] [A]  - Assets Phase: 387.8ms
+[05:03:00] [pool-14-thread-6/INFO]: [ModelEngine] [A]  - Zipping Phase: 354.7ms
+[05:05:03] [Server thread/INFO]: CellFuzzy issued server command: /weather clear
+[05:05:03] [Server thread/INFO]: [CellFuzzy: Set the weather to clear]
+[05:05:15] [Server thread/INFO]: CellFuzzy issued server command: /gamerule doWeatherCycle false
+[05:05:15] [Server thread/INFO]: [CellFuzzy: Gamerule doWeatherCycle is now set to: false]
+[05:09:28] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload
+[05:09:31] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload all
+[05:09:31] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[05:09:31] [Server thread/INFO]: Oraxen | TextEffects.shader.encoding 'alpha_lsb' is deprecated. Using 'effect_font'.
+[05:09:31] [Server thread/INFO]: Oraxen | Loaded 4 text effects
+[05:09:31] [Server thread/INFO]: Oraxen | Loaded 16 glyphs, 0 reference glyphs, 1 animated glyphs
+[05:09:31] [Server thread/INFO]: Oraxen | No HUDs loaded, skipping task registration
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "bedrock_pickaxe" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'bedrock_pickaxe': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "obsidian_sword" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "obsidian_helmet" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_helmet': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "obsidian_chestplate" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_chestplate': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "obsidian_leggings" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_leggings': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "obsidian_boots" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_boots': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "glass_sword" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'glass_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "amethyst" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'amethyst': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "ruby" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'ruby': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "onyx" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'onyx': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | The recipe "orax" is invalid, please ensure all its ingredients exist in your config
+[05:09:31] [Server thread/INFO]: Oraxen | Failed to load recipe 'orax': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:09:31] [Server thread/INFO]: Oraxen | Processing 1 animated glyphs...
+[05:09:31] [Server thread/INFO]: Oraxen | Generated animation font for: spinner (16 frames @ 16 fps)
+[05:09:31] [Server thread/INFO]: Oraxen | Generated Custom-Armor datapack. A server restart is required for this feature to work.
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/blocks/iron.json: blocks/iron
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/silver_block.json: silver_ore
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[05:09:31] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:09:32] [Oraxen-PackWorker/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[05:09:32] [Oraxen-PackWorker/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+[05:09:32] [Oraxen-PackWorker/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[05:09:32] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
+[05:09:33] [Craft Scheduler Thread - 19 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[05:09:38] [Craft Scheduler Thread - 19 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=a96b2fdf53609127b0bea87101d0b67da0ce3cef in 4994 ms
+[05:10:12] [Server thread/INFO]: CellFuzzy issued server command: /meg summon thornwalker
+[05:10:26] [Server thread/INFO]: [INFO] Successfully spawned tree 'oak_tree' at -45.0,72.0,505.0
+[05:10:26] [Server thread/INFO]: [ERROR] Schematic file not found: plugins/OraxenNature/schematics/my_awesome_tree.schem
+[05:10:26] [Server thread/INFO]: [INFO] Successfully spawned tree 'schematic_tree' at -45.0,65.0,750.0
+[05:10:26] [Server thread/INFO]: [INFO] Successfully spawned tree 'oak_tree' at -50.0,72.0,496.0
+[05:13:36] [Server thread/INFO]: CellFuzzy issued server command: /meg reload
+[05:13:36] [Server thread/WARN]: [ModelEngine] [S] Unable to activate MineSkin skin generation: Empty API Key
+[05:13:36] [ForkJoinPool.commonPool-worker-12/INFO]: [ModelEngine] [A] 
+[05:13:36] [ForkJoinPool.commonPool-worker-12/INFO]: [ModelEngine] [A] [Importing models]
+[05:13:36] [ForkJoinPool.commonPool-worker-12/INFO]: [ModelEngine] [A] Loading cache version: R4.0.8
+[05:13:36] [pool-14-thread-7/INFO]: [ModelEngine] [A] Importing internal_fire.bbmodel.
+[05:13:36] [pool-14-thread-7/INFO]: [ModelEngine] [A] 
+[05:13:36] [pool-14-thread-7/INFO]: [ModelEngine] [A] Importing thornwalker.json.
+[05:13:36] [pool-14-thread-7/WARN]: [ModelEngine] [A] --Error: Unknown format.
+[05:13:36] [pool-14-thread-9/INFO]: [ModelEngine] [A] 
+[05:13:36] [pool-14-thread-9/INFO]: [ModelEngine] [A] Importing thornwalker.bbmodel.
+[05:13:36] [pool-14-thread-9/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[05:13:36] [pool-14-thread-10/INFO]: [ModelEngine] [A] 
+[05:13:36] [pool-14-thread-10/INFO]: [ModelEngine] [A] Importing thorning.bbmodel.
+[05:13:36] [pool-14-thread-10/WARN]: [ModelEngine] [A] --Warning: Missing hitbox.
+[05:13:38] [pool-14-thread-5/INFO]: [ModelEngine] [A] 
+[05:13:38] [pool-14-thread-5/INFO]: [ModelEngine] [A] Resource pack zipped.
+[05:13:38] [pool-14-thread-5/INFO]: [ModelEngine] [A] Generator Profiled:
+[05:13:38] [pool-14-thread-5/INFO]: [ModelEngine] [A]  - Import Phase: 70.5ms
+[05:13:38] [pool-14-thread-5/INFO]: [ModelEngine] [A]  - Assets Phase: 684.6ms
+[05:13:38] [pool-14-thread-5/INFO]: [ModelEngine] [A]  - Zipping Phase: 1,206.6ms
+[05:15:21] [Server thread/INFO]: [INFO] Successfully spawned tree 'oak_tree' at -35.0,65.0,719.0
+[05:15:50] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload
+[05:15:53] [Server thread/INFO]: CellFuzzy issued server command: /oraxen reload all
+[05:15:53] [Server thread/INFO]: Oraxen | Updating all items in player-inventories...
+[05:15:53] [Server thread/INFO]: Oraxen | TextEffects.shader.encoding 'alpha_lsb' is deprecated. Using 'effect_font'.
+[05:15:53] [Server thread/INFO]: Oraxen | Loaded 4 text effects
+[05:15:53] [Server thread/INFO]: Oraxen | Loaded 16 glyphs, 0 reference glyphs, 1 animated glyphs
+[05:15:53] [Server thread/INFO]: Oraxen | No HUDs loaded, skipping task registration
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "bedrock_pickaxe" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'bedrock_pickaxe': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "obsidian_sword" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "obsidian_helmet" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_helmet': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "obsidian_chestplate" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_chestplate': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "obsidian_leggings" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_leggings': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "obsidian_boots" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'obsidian_boots': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "glass_sword" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'glass_sword': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "amethyst" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'amethyst': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "ruby" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'ruby': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "onyx" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'onyx': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | The recipe "orax" is invalid, please ensure all its ingredients exist in your config
+[05:15:53] [Server thread/INFO]: Oraxen | Failed to load recipe 'orax': NullPointerException: Cannot invoke "io.th0rgal.oraxen.items.ItemBuilder.build()" because the return value of "io.th0rgal.oraxen.api.OraxenItems.getItemById(String)" is null
+[05:15:53] [Server thread/INFO]: Oraxen | Processing 1 animated glyphs...
+[05:15:53] [Server thread/INFO]: Oraxen | Generated animation font for: spinner (16 frames @ 16 fps)
+[05:15:53] [Server thread/INFO]: Oraxen | Generated Custom-Armor datapack. A server restart is required for this feature to work.
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/wooden_cart.json: default/wooden_cart
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/silver_block.json: silver_ore
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/blocks/iron.json: blocks/iron
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Found invalid texture-path inside model-file assets/minecraft/models/default/sofa.json: pack:default/sofa
+[05:15:53] [Oraxen-PackWorker/INFO]: Oraxen | Verify that you have a texture in said path.
+
+[05:15:54] [Oraxen-PackWorker/INFO]: Oraxen | Pack contains malformed texture(s) and/or model(s)
+[05:15:54] [Oraxen-PackWorker/INFO]: Oraxen | These need to be fixed, otherwise the resourcepack will be broken
+[05:15:54] [Oraxen-PackWorker/INFO]: Oraxen | Attempting to exclude malformed textures from atlas-file
+[05:15:54] [Server thread/INFO]: Oraxen | Generated Jukebox datapack. A server restart is required for this feature to work.
+[05:15:54] [Craft Scheduler Thread - 18 - Oraxen/INFO]: Oraxen | Automatic upload of the resource pack is enabled, uploading...
+[05:15:59] [Craft Scheduler Thread - 18 - Oraxen/INFO]: Oraxen | Resourcepack uploaded to http://atlas.oraxen.com:8080/pack.zip?id=a96b2fdf53609127b0bea87101d0b67da0ce3cef in 4309 ms
+[05:16:03] [Server thread/INFO]: CellFuzzy issued server command: /meg summon thornwalker
+[05:17:25] [Server thread/INFO]: Stopping the server
+[05:17:25] [Server thread/INFO]: Stopping server
+[05:17:25] [Server thread/INFO]: [GridlockCore] Disabling GridlockCore v1.0-SNAPSHOT
+[05:17:25] [Server thread/INFO]: [GridlockCore] GridlockCore is shutting down.
+[05:17:25] [Server thread/INFO]: [VoidWorld] Disabling VoidWorld v1.0
+[05:17:25] [Server thread/INFO]: [OraxenNature] Disabling OraxenNature v1.7.0
+[05:17:25] [Server thread/INFO]: ------------------------------------------------
+[05:17:25] [Server thread/INFO]: 
+[05:17:25] [Server thread/INFO]:   OraxenNature - Disabled
+[05:17:25] [Server thread/INFO]:   
+[05:17:25] [Server thread/INFO]:   Developed by: Hydr4
+[05:17:25] [Server thread/INFO]:   Version: 1.7.0
+[05:17:25] [Server thread/INFO]: 
+[05:17:25] [Server thread/INFO]: ------------------------------------------------
+[05:17:25] [Server thread/INFO]: [OraxenNature] Growth task stopped.
+[05:17:25] [Server thread/INFO]: [CustomCrafting] Disabling CustomCrafting v4.19.1.0
+[05:17:25] [Server thread/INFO]: [WolfyUtilities] Disabling WolfyUtilities v4.19.1.2
+[05:17:25] [Server thread/INFO]: [WolfyUtilities] Save stored Custom Items
+[05:17:25] [Server thread/INFO]: [Oraxen] Disabling Oraxen v1.213.0
+[05:17:25] [Server thread/INFO]: Oraxen | Unhooking plugin "MythicMobs"
+[05:17:25] [Server thread/INFO]: Oraxen | Successfully unloaded
+[05:17:25] [Server thread/INFO]: [CommandAPI] Disabling CommandAPI v11.2.0
+[05:17:25] [Server thread/INFO]: [packetevents] Disabling packetevents v2.12.1
+[05:17:25] [Server thread/INFO]: [FastAsyncWorldEdit] Disabling FastAsyncWorldEdit v2.15.0+59372c5
+[05:17:25] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:17:25] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.1.0
+[05:17:25] [Server thread/INFO]: [NBTAPI] Disabling NBTAPI v2.15.7
+[05:17:25] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.11.2-6a371d59
+[05:17:25] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[05:17:25] [Server thread/INFO]: [MythicMobs] - 
+[05:17:25] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[05:17:25] [Server thread/INFO]: [MythicMobs] - 
+[05:17:25] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[05:17:25] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[05:17:25] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[05:17:25] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[05:17:25] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[05:17:25] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[05:17:25] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[05:17:25] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[05:17:25] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[05:17:25] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[05:17:25] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[05:17:25] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.6.2
+[05:17:25] [Server thread/INFO]: [Multiverse-Core] - Disabled
+[05:17:25] [Server thread/INFO]: Saving players
+[05:17:25] [Server thread/INFO]: CellFuzzy lost connection: Server closed
+[05:17:25] [Server thread/INFO]: CellFuzzy left the game
+[05:17:25] [Server thread/INFO]: Saving worlds
+[05:17:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:17:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[05:17:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[05:17:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Saved 750 block chunks, 155 entity chunks, 0 poi chunks in world 'world' in 1.74s
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[05:17:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[05:17:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.05s
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[05:17:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[TestWorldgen]'/minecraft:testworldgen
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'TestWorldgen'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'TestWorldgen'
+[05:17:27] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'TestWorldgen'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'TestWorldgen' in 0.10s
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'TestWorldgen'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'TestWorldgen'
+[05:17:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[grid_overworld]'/minecraft:grid_overworld
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'grid_overworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'grid_overworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'grid_overworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'grid_overworld' in 0.01s
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'grid_overworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'grid_overworld'
+[05:17:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[fuztestingworld]'/minecraft:fuztestingworld
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'fuztestingworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'fuztestingworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'fuztestingworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 14 entity chunks, 0 poi chunks in world 'fuztestingworld' in 0.06s
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'fuztestingworld'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'fuztestingworld'
+[05:17:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Generated_World1]'/minecraft:generated_world1
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Generated_World1'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Generated_World1'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Generated_World1'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'Generated_World1' in 0.10s
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Generated_World1'
+[05:17:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Generated_World1'
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (TestWorldgen): All chunks are saved
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (grid_overworld): All chunks are saved
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (fuztestingworld): All chunks are saved
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (Generated_World1): All chunks are saved
+[05:17:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:17:28] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[05:17:28] [Server thread/INFO]: All I/O tasks to complete
+[05:17:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[05:17:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -3,7 +3,7 @@
 	"animations": {
 		"walk": {
 			"loop": true,
-			"animation_length": 1.2917,
+			"animation_length": 1.7083,
 			"override_previous_animation": true,
 			"bones": {
 				"body": {
