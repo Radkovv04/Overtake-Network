@@ -1,17 +1,17 @@
 blocks:
   silver_ore:
-    block: silver_block
-    worlds:
-      - TestWorldgen
-    min_y: 10
-    max_y: 60
-    vein_size_min: 3
-    vein_size_max: 6
-    veins_per_chunk_min: 1
-    veins_per_chunk_max: 4
-    replace_blocks:
-      - STONE
-      - DEEPSLATE
-      - TUFF
-    biomes: []
-    enabled: true
+    # This must match your Oraxen item id string exactly
+    Oraxen_ID: silver_ore
+    Worlds:
+    - world
+    Chance: 0.35
+    Min_Y: -10
+    Max_Y: 60
+    Vein_Size: 5
+    Iterations: 4
+    Replace_Blocks:
+    - STONE
+    - DEEPSLATE
+    - TUFF
+    Biomes: []
+    Enabled: true

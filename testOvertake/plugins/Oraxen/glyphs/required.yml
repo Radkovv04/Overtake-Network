@@ -5,7 +5,6 @@ required:
   ascent: 8
   height: 8
   chat:
-    permission: oraxen.emoji.required
-  char: ꐟ
+    permission: "oraxen.emoji.required"
 
 # bBsRkEUEPf/PXncegqMKJySV4lSGno5Ovnhw53E9HBhZJgTacaSTQRInP1ciHSMHPdooOyxSsHasVMqBuT8KSwxdqzZ0VccKOltqldqkh2A=
