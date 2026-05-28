@@ -1,3 +1,29 @@
+zinc_ore:
+  itemname: <gradient:#E6E6E6:#AFAFAF>Zinc Ore
+  material: PAPER
+  Pack:
+    generate_model: true
+    parent_model: block/cube_all
+    textures:
+    - default/zinc_ore
+    custom_model_data: 1020
+  Mechanics:
+    noteblock:
+      interactable: false
+      block_sounds:
+        break_sound: block.stone.break
+        place_sound: block.stone.place
+      custom_variation: 3
+      model: zinc_ore
+      hardness: 7
+      drop:
+        silktouch: true
+        fortune: true
+        minimal_type: IRON
+        loots:
+        - probability: 1.0
+          oraxen_item: raw_silver
+        best_tool: PICKAXE
 silver_ore:
   itemname: <gradient:#E6E6E6:#AFAFAF>Silver Ore
   material: PAPER
